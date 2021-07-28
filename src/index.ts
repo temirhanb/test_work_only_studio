@@ -4,13 +4,13 @@ enum Gender {
 }
 
 const groupBy = (arr: any[], callback: (call: any) => any) => {
-  return arr.reduce((a, elm) => {
-    const key = callback(elm);
-    if (!a[key]) {
-      a[key] = [];
+  return arr.reduce((array, item) => {
+    const key = callback(item);
+    if (!array[key]) {
+      array[key] = [];
     }
-    a[key].push(elm);
-    return a;
+    array[key].push(item);
+    return array;
   }, {});
 };
 
