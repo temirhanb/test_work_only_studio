@@ -1,0 +1,24 @@
+{
+  "name": "test_work_only_studio",
+  "version": "1.0.0",
+  "description": "ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/temirhanb/test_work_only_studio.git"
+  },
+  "author": "temirkhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/temirhanb/test_work_only_studio/issues"
+  },
+  "homepage": "https://github.com/temirhanb/test_work_only_studio#readme",
+  "devDependencies": {
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  }
+}
